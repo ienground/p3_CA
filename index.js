@@ -12,7 +12,7 @@ let yOffsets = [];
 let rotates = [];
 
 function preload() {
-    img = loadImage("/p3_CA//source.png");
+    img = loadImage("/p3_CA/source.png");
     for (let i = 1; i <= 100; i++) {
         let file = loadImage('/p3_CA/src/' + i.toString().padStart(5,'0') + '.jpg');
         sources.push(file);
